@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhysioActiv By SS - Sara Semlali</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo.png" alt="PhysioActiv By SS" />
+          <span>PhysioActiv <strong>By SS</strong></span>
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#apropos">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- ACCUEIL -->
+    <section id="accueil">
+      <h1>Votre santé,<br /><span>notre priorité</span></h1>
+      <div class="hero-sub">
+        <span class="line-deco"></span>
+        Centre physioactivbyss de kinésithérapie, esthétique et d’amincissement
+        <span class="line-deco"></span>
+      </div>
+      <a href="#contact" class="btn"
+        ><i class="fas fa-calendar-alt"></i> Prendre rendez-vous</a
+      >
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <h2>Nos services</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn prev" id="prevBtn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel-wrapper">
+          <div class="cards" id="cardsTrack">
+            <div
+              class="card"
+              style="background-image: url(&quot;images/service1.jpg&quot;)"
+            >
+              <div class="card-overlay">
+                <i class="fas fa-bone"></i>
+                <h3>Rééducation orthopédique</h3>
+                <p>
+                  Prise en charge des fractures, maladies des articulations et
+                  rééducation fonctionnelle et sportive.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="background-image: url(&quot;images/service2.jpg&quot;)"
+            >
+              <div class="card-overlay">
+                <i class="fas fa-brain"></i>
+                <h3>Rééducation neurologique & pédiatrique</h3>
+                <p>
+                  Traitement des pathologies du système nerveux, des enfants et
+                  accompagnement des personnes âgées.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="background-image: url(&quot;images/service3.jpg&quot;)"
+            >
+              <div class="card-overlay">
+                <i class="fas fa-lungs"></i>
+                <h3>Rééducation respiratoire & périnéale</h3>
+                <p>
+                  Soins du système respiratoire et rééducation du plancher
+                  pelvien avant et après l'accouchement.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="background-image: url(&quot;images/service4.jpg&quot;)"
+            >
+              <div class="card-overlay">
+                <i class="fas fa-hands"></i>
+                <h3>Thérapies manuelles</h3>
+                <p>
+                  Chiropraxie, drainage lymphatique et réflexologie plantaire
+                  pour soulager et rééquilibrer le corps.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="background-image: url(&quot;images/service5.jpg&quot;)"
+            >
+              <div class="card-overlay">
+                <i class="fas fa-syringe"></i>
+                <h3>Techniques de puncture</h3>
+                <p>
+                  Acupuncture, dry needling, cupping therapy et K-taping pour
+                  traiter douleurs et tensions musculaires.
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="card"
+              style="background-image: url(&quot;images/service6.jpg&quot;)"
+            >
+              <div class="card-overlay">
+                <i class="fas fa-spa"></i>
+                <h3>Soins esthétiques & bien-être</h3>
+                <p>
+                  Microneedling, hydrafacial, mésothérapie et programmes
+                  d'amincissement personnalisés.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn next" id="nextBtn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots"></div>
+    </section>
+
+    <!-- À PROPOS -->
+    <section id="apropos">
+      <div class="apropos-header">
+        <span class="subtitle">À propos</span>
+        <h2>Découvrez votre kinésithérapeute</h2>
+        <p>
+          Une approche personnalisée alliant expertise médicale et bien-être
+        </p>
+      </div>
+
+      <!-- Wrapper photo+présentation à gauche, parcours à droite -->
+      <div class="apropos-wrapper">
+        <!-- COLONNE GAUCHE : Photo + Présentation -->
+        <div class="apropos-left">
+          <div class="apropos-img">
+            <img src="images/Photo professionnelle.png" alt="Sara Semlali" />
+            <div class="apropos-quote">
+              <i class="fas fa-quote-left"></i>
+              <p>Chaque patient mérite une attention unique et personnalisée</p>
+            </div>
+          </div>
+
+          <div class="apropos-content">
+            <h3>Sara Semlali</h3>
+            <p class="role">Kinésithérapeute & Physiothérapeute</p>
+            <p class="description">
+              Diplômée de l'Université Internationale de Casablanca, je suis
+              passionnée par l'art de soulager et d'accompagner mes patients
+              vers une meilleure qualité de vie. Mon approche allie rigueur
+              scientifique, écoute attentive et soins personnalisés.
+            </p>
+          </div>
+        </div>
+
+        <!-- COLONNE DROITE : Parcours -->
+        <div class="apropos-right">
+          <h3 class="section-titre">
+            <i class="fas fa-graduation-cap"></i> Parcours & Formations
+          </h3>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2017 - 2022</span>
+                <h4>Master en Kinésithérapie</h4>
+                <p>Université Internationale de Casablanca (UIC)</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2022</span>
+                <h4>Certification en Drainage Lymphatique</h4>
+                <p>Méthode Vodder, Maroc</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2022</span>
+                <h4>Formation en Hijama Thérapeutique</h4>
+                <p>Centre de formation médecine traditionnelle</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2023</span>
+                <h4>Spécialisation en Soins Esthétiques</h4>
+                <p>Microneedling & Hydrafacial</p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="timeline-date">2024</span>
+                <h4>Formation Continue - Dry Needling</h4>
+                <p>Approche neuromusculaire avancée</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bouton CTA centré en bas -->
+      <div class="apropos-cta">
+        <a href="#contact" class="btn-apropos">
+          <i class="fas fa-calendar-alt"></i> Prendre rendez-vous
+        </a>
+      </div>
+    </section>
+    <!-- GALERIE CABINET -->
+    <section id="galerie">
+      <div class="galerie-header">
+        <span class="subtitle">Notre espace</span>
+        <h2>Découvrez le centre</h2>
+        <p>
+          Un environnement moderne, propre et accueillant pour votre confort
+        </p>
+      </div>
+
+      <div class="galerie-grid">
+        <div class="galerie-item large">
+          <img src="images/cabinet1.jpg" alt="Salle de soins" />
+          <div class="galerie-overlay">
+            <span>Salle de soins principale</span>
+          </div>
+        </div>
+        <div class="galerie-item">
+          <img src="images/equipementsprof.jpg" alt="Équipements" />
+          <div class="galerie-overlay">
+            <span>Équipements professionnels</span>
+          </div>
+        </div>
+        <div class="galerie-item">
+          <img src="images/cabinet3.jpg" alt="Espace détente" />
+          <div class="galerie-overlay">
+            <span>Espace d'accueil</span>
+          </div>
+        </div>
+        <div class="galerie-item">
+          <img src="images/cabinet4.jpg" alt="Accueil" />
+          <div class="galerie-overlay">
+            <span>Espace d'entraînement</span>
+          </div>
+        </div>
+        <div class="galerie-item">
+          <img src="images/centre.jpg" alt="Vue du centre" />
+          <div class="galerie-overlay">
+            <span>Notre centre</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lightbox Galerie -->
+      <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Fermer">
+          <i class="fas fa-times"></i>
+        </button>
+
+        <button
+          class="lightbox-arrow lightbox-prev"
+          id="lightboxPrev"
+          aria-label="Image précédente"
+        >
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="lightbox-content">
+          <img src="" alt="" id="lightboxImage" />
+          <div class="lightbox-caption" id="lightboxCaption"></div>
+          <div class="lightbox-counter" id="lightboxCounter"></div>
+        </div>
+
+        <button
+          class="lightbox-arrow lightbox-next"
+          id="lightboxNext"
+          aria-label="Image suivante"
+        >
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- TÉMOIGNAGES -->
+    <section id="temoignages">
+      <div class="temoignages-header">
+        <span class="subtitle">Témoignages</span>
+        <h2>"Ils nous ont fait confiance"</h2>
+      </div>
+
+      <div class="carousel-container temoignages-container">
+        <button class="carousel-btn prev" id="prevTemoign">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel-wrapper">
+          <div class="temoignages-track" id="temoignagesTrack">
+            <div class="temoignage">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <div class="etoiles">★★★★★</div>
+              <p>
+                "Une superbe expérience ! Sarah est vraiment incroyable. Elle
+                m'a fait une hijama magnifique, avec beaucoup de douceur et de
+                professionnalisme. Elle explique tout, elle met à l'aise, on
+                sent qu'elle aime ce qu'elle fait."
+              </p>
+              <div class="patient-info">
+                <div class="avatar" style="background: #1a6bb5">P</div>
+                <div>
+                  <span class="patient-name">Paulin Fae</span>
+                  <span class="patient-source">Avis Google</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="temoignage">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <div class="etoiles">★★★★★</div>
+              <p>
+                "Sara a un incroyable talent. Les techniques sont adaptées à
+                chaque problématique. En seulement 2 séances : plus aucune
+                douleur."
+              </p>
+              <div class="patient-info">
+                <div class="avatar" style="background: #c0392b">C</div>
+                <div>
+                  <span class="patient-name">Clémence Touzé</span>
+                  <span class="patient-source">Avis Google</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="temoignage">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <div class="etoiles">★★★★★</div>
+              <p>
+                "Deux séances et déjà pleinement satisfait ! Je vis en France et
+                je sais que j'y retournerai à chaque fois que je reviendrai au
+                Maroc. Centre n'a absolument rien à envier à ce qu'on a là-bas.
+                Demandez après Sara qui est à la fois kiné et ostéopathe."
+              </p>
+              <div class="patient-info">
+                <div class="avatar" style="background: #27ae60">A</div>
+                <div>
+                  <span class="patient-name">A.A Lamrini</span>
+                  <span class="patient-source">Avis Google</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="temoignage">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <div class="etoiles">★★★★★</div>
+              <p>
+                "Je tiens à exprimer ma sincère gratitude envers votre centre
+                qui m'a énormément aidé à soulager mes douleurs sacro-iliaques.
+                Un soulagement ressenti dès les deux premières séances. Un grand
+                merci à Dr Sara pour son professionnalisme."
+              </p>
+              <div class="patient-info">
+                <div class="avatar" style="background: #8e44ad">Z</div>
+                <div>
+                  <span class="patient-name">Zeeneb Aitel</span>
+                  <span class="patient-source">Avis Google</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="temoignage">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <div class="etoiles">★★★★★</div>
+              <p>
+                "Je recommande Mlle Sara Semlali pour toute personne qui cherche
+                une kinésithérapeute compétente et qualifiée. Son dévouement et
+                sa maîtrise de son travail l'ont encouragée et aidée à exceller
+                dans son métier avec une aptitude incomparable, et avec un amour
+                que je n'ai pas pu retrouver chez d'autres kinésithérapeutes.
+              </p>
+
+              <div class="patient-info">
+                <div class="avatar" style="background: #e67e22">N</div>
+                <div>
+                  <span class="patient-name">Najat Zine-Eddine</span>
+                  <span class="patient-source">Avis Google</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="temoignage">
+              <i class="fas fa-quote-left quote-icon"></i>
+              <div class="etoiles">★★★★★</div>
+              <p>
+                "Centre bien équipé, kinésithérapeute très compétente. Je
+                recommande vivement leur traitement antalgique au dryneedling,
+                j'ai pu sentir le résultat immédiatement."
+              </p>
+              <div class="patient-info">
+                <div class="avatar" style="background: #16a085">F</div>
+                <div>
+                  <span class="patient-name">Fatoumata Keita</span>
+                  <span class="patient-source">Avis Google</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn next" id="nextTemoign">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="temoignagesDots"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Nous contacter</h2>
+      <div class="contact-wrapper">
+        <form id="contactForm" autocomplete="off">
+          <div class="form-group">
+            <label for="nom">Nom complet</label>
+            <input
+              type="text"
+              id="nom"
+              placeholder="Votre nom complet"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="tel">Téléphone</label>
+            <input
+              type="tel"
+              id="tel"
+              placeholder="06 12 34 56 78"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="exemple@email.com"
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Décrivez votre demande..."
+              autocomplete="off"
+            ></textarea>
+          </div>
+
+          <button type="submit">
+            <i class="fas fa-paper-plane"></i> Envoyer le message
+          </button>
+        </form>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.4633099045604!2d-7.854813999999999!3d33.41116340000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda88319d5a40555%3A0xc83d4a57a1d205bb!2sPhysioactivbyss!5e0!3m2!1sen!2sma!4v1778113780048!5m2!1sen!2sma"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+          <div class="info-blocks">
+            <!-- Ligne 1 : Contact + Horaires -->
+            <div class="info-group">
+              <h4>Contact</h4>
+              <p><i class="fas fa-phone"></i> 05 22 96 49 14</p>
+              <p><i class="fas fa-phone"></i> 06 67 93 65 68</p>
+              <p><i class="fas fa-envelope"></i> Sinfophysio@gmail.com</p>
+              <a href="tel:+212522964914" class="btn-appeler">
+                <i class="fas fa-phone"></i> Appeler maintenant
+              </a>
+            </div>
+
+            <div class="info-group">
+              <h4>Horaires</h4>
+              <p><i class="fas fa-clock"></i> Lun – Ven : 9h00 – 19h00</p>
+              <p><i class="fas fa-clock"></i> Sam : 9h00 – 12h30</p>
+              <p><i class="fas fa-clock"></i> Dim : Fermé</p>
+              <p>
+                <i class="fas fa-calendar-check"></i> Uniquement sur rendez-vous
+              </p>
+            </div>
+
+            <!-- Ligne 2 : Localisation + Réseaux -->
+            <div class="info-group">
+              <h4>Localisation</h4>
+              <p>
+                <i class="fas fa-map-marker-alt"></i> Lot Essabil N 7, Soualem
+              </p>
+            </div>
+
+            <div class="info-group">
+              <h4>Réseaux sociaux</h4>
+              <p>
+                <i class="fab fa-facebook"></i>
+                <a
+                  href="https://www.facebook.com/Physio.activbyss"
+                  target="_blank"
+                  >@Physio.activbyss</a
+                >
+              </p>
+              <p>
+                <i class="fab fa-instagram"></i>
+                <a
+                  href="https://www.instagram.com/Physio.activbyss"
+                  target="_blank"
+                  >@Physio.activbyss</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>
+        &copy; 2026 PhysioActiv By SS — Sara Semlali | Lot Essabil N 7, Soualem
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- BOUTON WHATSAPP FLOTTANT -->
+    <a href="https://wa.me/212667936568" target="_blank" class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </body>
+</html>
