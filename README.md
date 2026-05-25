@@ -58,7 +58,7 @@ Le projet a été développé et testé en local avec **XAMPP**.
 2. **Placer les fichiers**
    Copier le dossier du projet dans le répertoire `htdocs` de XAMPP :
    ```
-   C:\xampp\htdocs\physioactiv\
+   C:\xampp\htdocs\cabinet-kine\
    ```
 
 3. **Démarrer les services**
@@ -73,8 +73,8 @@ Le projet a été développé et testé en local avec **XAMPP**.
    Le fichier `connexion.php` contient les paramètres de connexion à la base. Adapter le port si nécessaire (par défaut MySQL : `3306`, ou `3307` selon la configuration).
 
 6. **Lancer l'application**
-   - Site vitrine : `http://localhost/physioactiv/index.html`
-   - Espace d'administration : `http://localhost/physioactiv/login.php`
+   - Site vitrine : `http://localhost/cabinet-kine/index.html`
+   - Espace d'administration : `http://localhost/cabinet-kine/login.php`
 
 ---
 
@@ -90,7 +90,7 @@ Le projet a été développé et testé en local avec **XAMPP**.
 ## Structure du projet
 
 ```
-physioactiv/
+cabinet-kine/
 ├── index.html              # Site vitrine
 ├── style.css               # Styles du site
 ├── script.js               # Interactivité (carrousels, lightbox, validation)
@@ -105,6 +105,7 @@ physioactiv/
 ├── ligne_message.php       # Fonction partagée de génération des lignes
 ├── export.php              # Export des données (CSV / Excel)
 ├── cabinet_kine.sql        # Export de la base de données
+├── images/                 # Images du site (galerie, photos)
 └── PHPMailer/              # Bibliothèque d'envoi d'emails
 ```
 
